@@ -26,7 +26,7 @@ export default class HomeScreen extends Component {
                         source={require('../assets/stars.gif')} 
                         style={styles.backgroundImage}> 
                 */}
-                {/* <ImageBackground 
+                 <ImageBackground 
                         source={require('../assets/stars.gif')} 
                         style={styles.backgroundImage}> 
                 */}
@@ -40,7 +40,7 @@ export default class HomeScreen extends Component {
                         <Text style={styles.titleText}>Estelar</Text>
                     </View>
 
-                    {/* <TouchableOpacity 
+                     <TouchableOpacity 
                           style={styles.routeCard} onPress={() =>
                         this.props.navigation("SpaceCraft")
                     }> */}
